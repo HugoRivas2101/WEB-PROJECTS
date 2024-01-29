@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*  {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*---------NAV DE RELLENO------*/
+nav {
+  padding: 1em;
+  display: flex;
+}
+.nav-derecha{
+  display: flex;
+}
+.nav-izquierda{
+  justify-content: right;
+}
+.universidad h2{
+  display:flex;
+  font-size: 1em;
+  color:rgb(161, 139, 37);
+  width: 170px;
+}
+.universidad{
+  padding-right: 1em;
+}
+.palito{
+  width: 1px;
+  height: 40px;
+  background-color: rgb(161, 139, 37);
+}
+.logo-AESS{
+  padding-left:1em;
+  width:100px;
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.espacio{
+  width:40%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-izquierda a {
+  font-size: 1em;
+  color: rgb(161, 139, 37);
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 1em;
+  letter-spacing: 0.4px;
+}
+
+.nav-izquierda a:hover {
+  outline: 2px;
+  outline-style: solid;
+  outline-color: #464646;
+  border-radius: 1em;
+  
+}
+
+/*------------FIN DEL NAV DE RELLENO---------*/
+
+
+html, body{
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+.contenedor-principal{
+  min-height: 600px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,0 +1,103 @@
+/*botoooooones*/
+
+/*----Paginacion-------*/
+.controles-paginacion button {
+  padding: 10px 12px;
+  margin: 0 7px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controles-paginacion button:hover {
+  background-color: #0056b3;
+}
+/*---------------------*/
+
+/*------Boton Ver más--------*/
+
+#vermas {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+}
+/*----------------------------*/
+
+
+
+
+/* Estilo para la página actual */
+.controles-paginacion button.pagina-actual {
+  background-color: #b3a100;
+  color: #fff;
+  border: 0px solid #0056b3;
+}
+
+/*------------------------*/
+/*DISEÑO RESPONSIVE*/
+@media (500px > width){
+  .contenedor-proyecto{
+    flex-direction: column;
+    align-items: center;
+  } 
+  img , a{
+    width: 350px;
+  }
+
+}
+@media (500px < width){
+  .contenedor-proyecto{
+    width: 1  000px;
+    height: 350px;
+  } 
+  img , a{
+    width: 450px;
+  }
+}
+/*-----------------------------*/
+
+.nombre-proyecto{
+  font-size: 1.3rem;
+}
+a,img{
+  max-width: 450px;
+  border-radius:1em;
+}
+.contenedor-separador{
+  display: flex;
+  justify-content: center;
+}
+.amarillo{
+  height: 0.6em;
+  width: 3.5em;
+  background:rgb(164, 121, 12);
+  padding: 0;
+}
+.marron{
+  height: 0.2em;
+  width: 16em;
+  background:rgb(51, 48, 0);
+  padding: 0;
+}
+.descripcion-proyecto{
+  text-align: justify;
+}
+.contenedor-texto-proyecto{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 22em;
+  line-height: 1.5rem;
+  padding-bottom: 50px;
+}
+.contenedor-proyecto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
