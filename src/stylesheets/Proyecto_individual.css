@@ -1,0 +1,57 @@
+.contenedor-proyecto-individual{
+
+  display: flex;
+  flex-direction: column;
+  /*
+  height: 1200px;
+  */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+
+.imagen-proyecto-individual{
+  padding: 0.5rem;
+  height: 40%;
+  width: 100%;
+  border-radius:1em;
+}
+
+.contenedor-texto-proyecto-individual{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.nombre-proyecto-individual{
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.descripcion-proyecto-individual{
+  padding-bottom: 1rem;
+  
+}
+
+
+
+
+
+.contenedor-imagen-proyecto-individual-detalles{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.imagen-detalle-proyecto-individual{
+  padding: 0.5em;
+  border-radius:1em;
+  width: 45%;
+}
